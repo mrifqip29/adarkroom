@@ -5,7 +5,7 @@ A Dark Room merupakan sebuah game berbasis text adventure yang dapat dimainkan d
 [Github](https://github.com/doublespeakgames/adarkroom)
 ## Gameplay
 Pemain hanya perlu menekan button yang berisi pilihan untuk memainkannya, seiring waktu pemain perlu mengumpulkan resource berupa kayu, bulu, dan daging untuk membangun sebuah alat atau bangunan.
-[Gameplay](https://levelskip.com/rpgs/A-Dark-Room-Walkthrough)
+![Gameplay](https://www.mobygames.com/images/shots/l/760808-a-dark-room-browser-screenshot-moving-the-cursor-over-a-letter.png)
 # Instalasi
 ## Requirement
 1. HTML5
