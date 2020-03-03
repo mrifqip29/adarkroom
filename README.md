@@ -11,11 +11,16 @@ Pemain hanya perlu menekan button yang berisi pilihan untuk memainkannya, seirin
 1. HTML5
 ## Instalasi Virtual Machine Ubuntu
 1. Membuat VM Ubuntu Server.
-..Kami menggunakan virtual machine yang tersedia di [Github Pak Auriza](https://github.com/auriza/komdat-lab/blob/master/p01.md).
+⋅⋅Kami menggunakan virtual machine yang tersedia di [Github Pak Auriza](https://github.com/auriza/komdat-lab/blob/master/p01.md).
 2. Setting Port
-..Tujuannya adalah agar VM bisa diakses dari luar melalui alamat IP host (localhost). Masuk ke 'Settings -> Network -> Advanced -> Port Forwarding' dan tambahkan dua aturan berikut.
+⋅⋅Tujuannya adalah agar VM bisa diakses dari luar melalui alamat IP host (localhost). Masuk ke 'Settings -> Network -> Advanced -> Port Forwarding' dan tambahkan dua aturan berikut.
 ---insert image here---
-3. Instalasi LAMP
+3. Login dengan kredensial
+```bash
+Username: student
+Password: student
+```
+4. Instalasi LAMP
   ```bash
 # akses vm dari host
 ssh student@localhost -p 2222
@@ -27,7 +32,7 @@ sudo apt install apache2 php mysql-server
 sudo apt install php-mysql php-gd php-mbstring php-xml php-curl
 sudo service apache2 restart
   ```
-4. Buka http://localhost:8000/ untuk memeriksa apakah LAMP sudah benar terinstall.
+5. Buka http://localhost:8000/ untuk memeriksa apakah LAMP sudah benar terinstall.
 
 *Tidak perlu menginstall HTML5 karena sudah terdapat dari VM nya sendiri.*
 
