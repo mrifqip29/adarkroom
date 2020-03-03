@@ -12,7 +12,7 @@ Pemain hanya perlu menekan button yang berisi pilihan untuk memainkannya, seirin
 ## Instalasi Virtual Machine Ubuntu
 1. Membuat VM Ubuntu Server, disini kami menggunakan virtual machine yang tersedia di [Github Pak Auriza](https://github.com/auriza/komdat-lab/blob/master/p01.md).
 2. Setting Port, yang berutujuan untuk agar VM bisa diakses dari luar melalui alamat IP host (localhost). Masuk ke 'Settings -> Network -> Advanced -> Port Forwarding' dan tambahkan dua aturan berikut.
----insert image here---
+![Port Forwarding](https://github.com/mrifqip29/adarkroom/blob/master/Screenshot/1583252089290.png)
 3. Login dengan kredensial
 ```bash
 Username: student
@@ -22,7 +22,9 @@ Password: student
   ```bash
 # akses vm dari host
 ssh student@localhost -p 2222
-
+  ```
+![ssh](https://github.com/mrifqip29/adarkroom/blob/master/Screenshot/1583252080896.png)
+  ```
 # install apache, mysql, php
 sudo apt update
 sudo apt upgrade
@@ -30,6 +32,8 @@ sudo apt install apache2 php mysql-server
 sudo apt install php-mysql php-gd php-mbstring php-xml php-curl
 sudo service apache2 restart
   ```
+![Install1](https://github.com/mrifqip29/adarkroom/blob/master/Screenshot/1583252033334.png)  
+
 5. Buka http://localhost:8000/ untuk memeriksa apakah LAMP sudah benar terinstall.
 
 *Tidak perlu menginstall HTML5 karena sudah terdapat dari VM nya sendiri.*
@@ -45,6 +49,8 @@ ssh student@localhost -p 2200
 ```bash
 sudo git clone https://github.com/doublespeakgames/adarkroom.git
   ```
+![Install2](https://github.com/mrifqip29/adarkroom/blob/master/Screenshot/1583252016914.png) 
+ 
 3. Buka http://localhost:8000/adarkroom untuk memainkan game.
 # Penggunaan
 --insert image here---
