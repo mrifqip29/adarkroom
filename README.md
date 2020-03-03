@@ -34,7 +34,10 @@ sudo service apache2 restart
 
 *Tidak perlu menginstall HTML5 karena sudah terdapat dari VM nya sendiri.*
 
-
+## Menghubungkan VM dengan terminal/cmd
+```bash
+ssh student@localhost -p 2200
+```
 ## Instalasi Game A Dark Room
 1. Ganti directory ke `/var/www/html`
 --insert image here---
