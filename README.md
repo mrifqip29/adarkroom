@@ -7,13 +7,46 @@ A Dark Room merupakan sebuah game berbasis text yang dapat dimainkan di web brow
 Pemain hanya perlu menekan button yang berisi pilihan untuk memainkannya, seiring waktu pemain perlu mengumpulkan resource berupa kayu, bulu, dan daging untuk membangun sebuah alat atau bangunan.
 
 # Instalasi
+## Requirement
+1. HTML5
 ## Instalasi Virtual Machine Ubuntu
-1. Kami menggunakan virtual machine yang tersedia di [Github Pak Auriza](https://github.com/auriza/komdat-lab/blob/master/p01.md)
-2. 
-3.
-## Instalasi Game A Dark Room
+1. Membuat VM Ubuntu Server.
+..Kami menggunakan virtual machine yang tersedia di [Github Pak Auriza](https://github.com/auriza/komdat-lab/blob/master/p01.md).
+2. Setting Port
+..Tujuannya adalah agar VM bisa diakses dari luar melalui alamat IP host (localhost). Masuk ke 'Settings -> Network -> Advanced -> Port Forwarding' dan tambahkan dua aturan berikut.
+---insert image here---
+3. Instalasi LAMP
+  ```bash
+# akses vm dari host
+ssh student@localhost -p 2222
 
+# instal apache, mysql, php
+sudo apt update
+sudo apt upgrade
+sudo apt install apache2 php mysql-server
+sudo apt install php-mysql php-gd php-mbstring php-xml php-curl
+sudo service apache2 restart
+  ```
+4. Buka http://localhost:8000/ untuk memeriksa apakah LAMP sudah benar terinstall.
+
+*Tidak perlu menginstall HTML5 karena sudah terdapat dari VM nya sendiri.*
+
+
+## Instalasi Game A Dark Room
+1. Ganti directory ke `/var/www/html`
+--insert image here---
+2. Git clone repository A Dark Room.
+```bash
+sudo git clone https://github.com/doublespeakgames/adarkroom.git
+  ```
+3. Buka http://localhost:8000/adarkroom untuk memainkan game.
 # Penggunaan
+--insert image here---
+# Referensi
+- <https://github.com/auriza>
+- <https://github.com/awesome-selfhosted/awesome-selfhosted>
+- <https://github.com/doublespeakgames/adarkroom>
+- Nabil Ahmad
 
 
 # Punya kak husna
