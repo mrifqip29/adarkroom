@@ -10,12 +10,8 @@ Pemain hanya perlu menekan button yang berisi pilihan untuk memainkannya, seirin
 ## Requirement
 1. HTML5
 ## Instalasi Virtual Machine Ubuntu
-1. Membuat VM Ubuntu Server.
-
-  Kami menggunakan virtual machine yang tersedia di [Github Pak Auriza](https://github.com/auriza/komdat-lab/blob/master/p01.md).
-2. Setting Port
-
-  Tujuannya adalah agar VM bisa diakses dari luar melalui alamat IP host (localhost). Masuk ke 'Settings -> Network -> Advanced -> Port Forwarding' dan tambahkan dua aturan berikut.
+1. Membuat VM Ubuntu Server, disini kami menggunakan virtual machine yang tersedia di [Github Pak Auriza](https://github.com/auriza/komdat-lab/blob/master/p01.md).
+2. Setting Port, yang berutujuan untuk agar VM bisa diakses dari luar melalui alamat IP host (localhost). Masuk ke 'Settings -> Network -> Advanced -> Port Forwarding' dan tambahkan dua aturan berikut.
 ---insert image here---
 3. Login dengan kredensial
 ```bash
