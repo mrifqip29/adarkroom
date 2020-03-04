@@ -85,6 +85,7 @@ Jika ingin menyimpan data permainan, klik save games di menu sebelah bawah kanan
 ![Saving Games](https://github.com/mrifqip29/adarkroom/blob/master/Screenshot/save%20gameplay.png)
 
 Klik _export_ jika ingin menyimpan permainan. Akan muncul kode enkripsi yang bisa kalian _copy_ dan import jika ingin kalian load gameplay nya.
+
 ![Export Gameplay](https://github.com/mrifqip29/adarkroom/blob/master/Screenshot/export%20gameplay.png)
 
 
