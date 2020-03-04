@@ -97,7 +97,7 @@ Ketika berhasil menyelesaikan game starship, akan muncul halaman tamat dan hanya
 - Nabil Ahmad
 
 <br/>
-<div align="left">
+<div align="right">
     <b><a href="#----">↥ back to top</a></b>
 </div>
 <br/>
