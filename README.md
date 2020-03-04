@@ -86,7 +86,9 @@ Jika ingin menyimpan data permainan, klik save games di menu sebelah bawah kanan
 Klik _export_ jika ingin menyimpan permainan. Akan muncul kode enkripsi yang bisa kalian _copy_ dan import jika ingin kalian load gameplay nya.
 
 ![Export Gameplay](https://github.com/mrifqip29/adarkroom/blob/master/Screenshot/export%20gameplay.png)
-
+## Game Ended
+Ketika berhasil menyelesaikan game starship, akan muncul halaman tamat dan hanya ada pilihan restart.
+![Game Tamat](https://github.com/mrifqip29/adarkroom/blob/master/Screenshot/tamat.png)
 
 # Referensi
 - <https://github.com/auriza>
