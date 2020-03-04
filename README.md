@@ -3,9 +3,6 @@
 ## About
 A Dark Room merupakan sebuah game berbasis text adventure yang dapat dimainkan di web browser. Terdapat pula versi mobile game ini pada paltform Android maupun iOS yang dapat diunduh pada marketplace masing-masing platform
 [Github](https://github.com/doublespeakgames/adarkroom)
-## Gameplay
-Pemain hanya perlu menekan button yang berisi pilihan untuk memainkannya, seiring waktu pemain perlu mengumpulkan resource berupa kayu, bulu, dan daging untuk membangun sebuah alat atau bangunan.
-![Gameplay](https://www.mobygames.com/images/shots/l/760808-a-dark-room-browser-screenshot-moving-the-cursor-over-a-letter.png)
 # Instalasi
 ## Requirement
 1. HTML5
@@ -52,7 +49,8 @@ sudo git clone https://github.com/doublespeakgames/adarkroom.git
 ![Install2](https://github.com/mrifqip29/adarkroom/blob/master/Screenshot/1583252016914.png) 
  
 3. Buka http://localhost:8000/adarkroom untuk memainkan game.
-# Penggunaan
+## Gameplay
+Pemain hanya perlu menekan button yang berisi pilihan untuk memainkannya, seiring waktu pemain perlu mengumpulkan resource berupa kayu, bulu, dan daging untuk membangun sebuah alat atau bangunan.
 ## Main Page : A Firelit Room
 Pada page ini berisi halaman utama dimana terdapat menu build, craft, dan buy. 
 ![Main Page](https://github.com/mrifqip29/adarkroom/blob/master/Screenshot/gameplay%201%20main%20page.png)
