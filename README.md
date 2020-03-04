@@ -95,3 +95,9 @@ Ketika berhasil menyelesaikan game starship, akan muncul halaman tamat dan hanya
 - <https://github.com/awesome-selfhosted/awesome-selfhosted>
 - <https://github.com/doublespeakgames/adarkroom>
 - Nabil Ahmad
+
+<br/>
+<div align="left">
+    <b><a href="#----">↥ back to top</a></b>
+</div>
+<br/>
