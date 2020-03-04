@@ -79,7 +79,8 @@ Menu ini muncul ketika sudah mendatangi lokasi _An Wrecked Starship_ di _Adventu
 ![An Old Starship](https://github.com/mrifqip29/adarkroom/blob/master/Screenshot/gameplay%204%20an%20old%20starship.png)
 
 Ketika Anda mengklik button _lift off_, akan menuju minigame dimana kita harus menghindari _obstacle-obstacle_ yang berjatuhan.
-![Starship Game](https://github.com/mrifqip29/adarkroom/blob/master/Screenshot/gameplay%203e%20arrived%20checkpoint.png)
+
+![Starship Game](https://github.com/mrifqip29/adarkroom/blob/master/Screenshot/space%20game.png)
 ## Saving Games
 Jika ingin menyimpan data permainan, klik save games di menu sebelah bawah kanan. Akan muncul menu _import_ dan _export_.
 ![Saving Games](https://github.com/mrifqip29/adarkroom/blob/master/Screenshot/save%20gameplay.png)
